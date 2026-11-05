@@ -1,0 +1,200 @@
+<?xml version="1.0" ?>
+<robot name="aquarm_origin">
+  <material name="silver">
+    <color rgba="0.116 0.116 0.116 1.000"/>
+  </material>
+
+  <link name="base_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.0012826207051944384 9.218271998639004e-07 0.022718286485849747"/>
+      <mass value="0.43979388247230944"/>
+      <inertia ixx="0.000228" ixy="0.0" ixz="2e-06" iyy="0.000242" iyz="-0.0" izz="0.00024"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_origin/base_link.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0.028"/>
+      <geometry>
+        <cylinder radius="0.030" length="0.056"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="link_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.002360416530553523 -3.52764964031724e-06 0.03938053665298224"/>
+      <mass value="0.7586472269825323"/>
+      <inertia ixx="0.000583" ixy="-0.0" ixz="1.9e-05" iyy="0.000642" iyz="-1e-06" izz="0.000509"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0.0 0.0 -0.056"/>
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_origin/link_1.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0.025"/>
+      <geometry>
+        <cylinder radius="0.025" length="0.05"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin rpy="0 1.5708 0" xyz="-0.02475 0 0.05"/>
+      <geometry>
+        <cylinder radius="0.025" length="0.0495"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="link_2">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.0412061525896634 -1.451457640822732e-09 0.12500022434407893"/>
+      <mass value="1.8322876716564722"/>
+      <inertia ixx="0.02501" ixy="-0.0" ixz="0.0" iyy="0.025305" iyz="0.0" izz="0.0014"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0.0495 -0.0 -0.106"/>
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_origin/link_2.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.05 0 0.125"/>
+      <geometry>
+        <cylinder radius="0.030" length="0.25"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="link_3">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.047139569533553013 3.524564222311259e-06 0.010619424652950016"/>
+      <mass value="0.7586473967627646"/>
+      <inertia ixx="0.000583" ixy="0.0" ixz="-1.9e-05" iyy="0.000642" iyz="-1e-06" izz="0.000509"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0.0495 0.0 -0.356"/>
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_origin/link_3.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin rpy="0 1.5708 0" xyz="0.02475 0 0"/>
+      <geometry>
+        <cylinder radius="0.025" length="0.0495"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.0495 0 0.025"/>
+      <geometry>
+        <cylinder radius="0.025" length="0.05"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="link_4">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.008481789051599051 -2.816168821948022e-06 0.08132283856391859"/>
+      <mass value="0.9498457528251933"/>
+      <inertia ixx="0.001335" ixy="1e-06" ixz="-0.00013" iyy="0.001488" iyz="-0.0" izz="0.000707"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0.0 0.0 -0.406"/>
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_origin/link_4.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0.04875"/>
+      <geometry>
+        <cylinder radius="0.025" length="0.0975"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="link_5">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.04705218543959541 3.912807862299357e-06 0.010967305416015205"/>
+      <mass value="0.7307706362027909"/>
+      <inertia ixx="0.000568" ixy="0.0" ixz="-2e-05" iyy="0.000627" iyz="-1e-06" izz="0.000486"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.05 0.0 -0.5035"/>
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_origin/link_5.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin rpy="0 1.5708 0" xyz="0.02475 0 0"/>
+      <geometry>
+        <cylinder radius="0.025" length="0.0495"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="link_6">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-4.7406523151494184e-14 -2.5552644099596276e-14 0.010000000000001674"/>
+      <mass value="0.021577473094923763"/>
+      <inertia ixx="4e-06" ixy="-0.0" ixz="-0.0" iyy="4e-06" iyz="-0.0" izz="7e-06"/>
+    </inertial>
+  </link>
+  <link name="tool">
+    <visual>
+      <origin rpy="0 0 0" xyz="0.0 0 0.0"/>
+      <geometry>
+
+        <sphere radius="0.01"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+
+  </link>
+
+  <joint name="joint1" type="continuous">
+    <origin rpy="0 0 0" xyz="0.0 0.0 0.056"/>
+    <parent link="base_link"/>
+    <child link="link_1"/>
+    <axis xyz="0.0 0.0 1.0"/>
+  </joint>
+  <joint name="joint2" type="continuous">
+    <origin rpy="0 0 0" xyz="-0.0495 0.0 0.05"/>
+    <parent link="link_1"/>
+    <child link="link_2"/>
+    <axis xyz="-1.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint3" type="continuous">
+    <origin rpy="0 0 0" xyz="0.0 -0.0 0.25"/>
+    <parent link="link_2"/>
+    <child link="link_3"/>
+    <axis xyz="1.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint4" type="continuous">
+    <origin rpy="0 0 0" xyz="0.0495 0.0 0.05"/>
+    <parent link="link_3"/>
+    <child link="link_4"/>
+    <axis xyz="0.0 0.0 1.0"/>
+  </joint>
+  <joint name="joint5" type="continuous">
+    <origin rpy="0 0 0" xyz="0.05 0.0 0.0975"/>
+    <parent link="link_4"/>
+    <child link="link_5"/>
+    <axis xyz="1.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint6" type="continuous">
+    <origin rpy="0 0 0" xyz="0.0495 0.0 0.05"/>
+    <parent link="link_5"/>
+    <child link="link_6"/>
+    <axis xyz="0.0 0.0 1.0"/>
+  </joint>
+  <joint name="tool_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 0.05"/>
+    <parent link="link_6"/>
+    <child link="tool"/>
+  </joint>
+
+</robot>

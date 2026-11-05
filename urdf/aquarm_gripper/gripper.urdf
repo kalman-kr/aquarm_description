@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="grip">
+  <material name="silver">
+    <color rgba="0.116 0.116 0.116 1.000"/>
+  </material>
+  <link name="base_link">
+    <inertial>
+      <origin xyz="2.874382630330837e-05 0.00032300640755650897 0.07413755373578114" rpy="0 0 0" />
+      <mass value="0.9543325148196851" />
+      <inertia ixx="0.001263" iyy="0.001263" izz="0.001263" ixy="0.0" iyz="0.0" ixz="0.0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/base_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/base_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="link1_1">
+    <inertial>
+      <origin xyz="1.2981653403686188e-05 0.0001181972010493529 0.0031554392381963337" rpy="0 0 0" />
+      <mass value="0.01637046903305581" />
+      <inertia ixx="4e-06" iyy="4e-06" izz="4e-06" ixy="0.0" iyz="0.0" ixz="0.0" />
+    </inertial>
+    <visual>
+      <origin xyz="0.0 0.0 -0.13" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link1_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 -0.13" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link1_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="link2_1">
+    <inertial>
+      <origin xyz="-0.0008777134187768348 -3.9470801397731e-17 0.014722695965064814" rpy="0 0 0" />
+      <mass value="0.0031056680023130606" />
+      <inertia ixx="5e-07" iyy="5e-07" izz="5e-07" ixy="0.0" iyz="0.0" ixz="0.0" />
+    </inertial>
+    <visual>
+      <origin xyz="0.0135 0.0 -0.133" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link2_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="0.0135 0.0 -0.133" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link2_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="link3_1">
+    <inertial>
+      <origin xyz="0.010342488380327412 2.175879177239104e-05 0.023354454080433962" rpy="0 0 0" />
+      <mass value="0.016289085412063534" />
+      <inertia ixx="5e-06" iyy="5e-06" izz="5e-06" ixy="0.0" iyz="0.0" ixz="0.0" />
+    </inertial>
+    <visual>
+      <origin xyz="0.027165 -0.0 -0.135976" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link3_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="0.027165 -0.0 -0.135976" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link3_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="link5_1">
+    <inertial>
+      <origin xyz="0.008267195016849185 -3.449215270715125e-06 0.026908359995210657" rpy="0 0 0" />
+      <mass value="0.04694001446420545" />
+      <inertia ixx="1.4e-05" iyy="1.4e-05" izz="1.4e-05" ixy="0.0" iyz="0.0" ixz="0.0" />
+    </inertial>
+    <visual>
+      <origin xyz="0.017314 -0.0 -0.175695" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link5_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="0.017314 -0.0 -0.175695" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link5_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="link4_1">
+    <inertial>
+      <origin xyz="0.01012132318758065 5.766794515866274e-17 0.02285987963395339" rpy="0 0 0" />
+      <mass value="0.009625997784129314" />
+      <inertia ixx="2e-06" iyy="2e-06" izz="2e-06" ixy="0.0" iyz="0.0" ixz="0.0" />
+    </inertial>
+    <visual>
+      <origin xyz="0.037557 -0.0 -0.129976" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link4_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="0.037557 -0.0 -0.129976" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link4_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="link6_1">
+    <inertial>
+      <origin xyz="0.0008777134187761132 -4.4007813018918896e-17 0.01472269596506487" rpy="0 0 0" />
+      <mass value="0.0031056680023130606" />
+      <inertia ixx="5e-07" iyy="5e-07" izz="5e-07" ixy="0.0" iyz="0.0" ixz="0.0" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.0135 0.0 -0.133" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link6_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="-0.0135 0.0 -0.133" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link6_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="link7_1">
+    <inertial>
+      <origin xyz="-0.010342488380328928 -2.1758791772291002e-05 0.023354454080433962" rpy="0 0 0" />
+      <mass value="0.016289085412063534" />
+      <inertia ixx="5e-06" iyy="5e-06" izz="5e-06" ixy="0.0" iyz="0.0" ixz="0.0" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.027165 -0.0 -0.135976" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link7_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="-0.027165 -0.0 -0.135976" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link7_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="link9_1">
+    <inertial>
+      <origin xyz="-0.008267195016851357 3.4492152707747913e-06 0.026908359995210768" rpy="0 0 0" />
+      <mass value="0.04694001446420545" />
+      <inertia ixx="1.4e-05" iyy="1.4e-05" izz="1.4e-05" ixy="0.0" iyz="0.0" ixz="0.0" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.017314 -0.0 -0.175695" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link9_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="-0.017314 -0.0 -0.175695" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link9_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="link8_1">
+    <inertial>
+      <origin xyz="-0.010121323214474991 5.271210612159015e-17 0.022859879622045998" rpy="0 0 0" />
+      <mass value="0.009625997784129314" />
+      <inertia ixx="2e-06" iyy="2e-06" izz="2e-06" ixy="0.0" iyz="0.0" ixz="0.0" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.037557 -0.0 -0.129976" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link8_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="-0.037557 -0.0 -0.129976" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aquarm_description/meshes/aquarm_gripper/link8_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="slide1" type="fixed">
+    <origin xyz="0.0 0.0 0.13" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="link1_1" />
+    <axis xyz="0.0 0.0 1.0" />
+  </joint>
+  <!-- Gripper drive joint: 0 (closed) to 1 rad (fully open). The other finger joints mimic it. -->
+  <joint name="joint1" type="revolute">
+    <origin xyz="-0.0135 0.0 0.003" rpy="0 0 0" />
+    <parent link="link1_1" />
+    <child link="link2_1" />
+    <axis xyz="-0.0 -1.0 0.0" />
+    <limit lower="0.0" upper="1.0" effort="10" velocity="100" />
+  </joint>
+  <joint name="joint2" type="revolute">
+    <origin xyz="-0.027165 0.0 0.135976" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="link3_1" />
+    <axis xyz="-0.0 -1.0 -0.0" />
+    <limit lower="0.0" upper="1.0" effort="10" velocity="100" />
+    <mimic joint="joint1" multiplier="1" offset="0" />
+  </joint>
+  <joint name="joint5" type="revolute">
+    <origin xyz="-0.037557 0.0 0.129976" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="link4_1" />
+    <axis xyz="-0.0 -1.0 -0.0" />
+    <limit lower="0.0" upper="1.0" effort="10" velocity="100" />
+    <mimic joint="joint1" multiplier="1" offset="0" />
+  </joint>
+  <joint name="joint6" type="revolute">
+    <origin xyz="0.020243 0.0 0.045719" rpy="0 0 0" />
+    <parent link="link4_1" />
+    <child link="link5_1" />
+    <axis xyz="-0.0 -1.0 -0.0" />
+    <limit lower="-1.0" upper="0.0" effort="10" velocity="100" />
+    <mimic joint="joint1" multiplier="-1" offset="0" />
+  </joint>
+  <joint name="joint7" type="revolute">
+    <origin xyz="0.0135 0.0 0.003" rpy="0 0 0" />
+    <parent link="link1_1" />
+    <child link="link6_1" />
+    <axis xyz="0.0 1.0 0.0" />
+    <limit lower="0.0" upper="1.0" effort="10" velocity="100" />
+    <mimic joint="joint1" multiplier="1" offset="0" />
+  </joint>
+  <joint name="joint8" type="revolute">
+    <origin xyz="0.027165 0.0 0.135976" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="link7_1" />
+    <axis xyz="0.0 -1.0 -0.0" />
+    <limit lower="-1.0" upper="0.0" effort="10" velocity="100" />
+    <mimic joint="joint1" multiplier="-1" offset="0" />
+  </joint>
+  <joint name="joint11" type="revolute">
+    <origin xyz="0.037557 0.0 0.129976" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="link8_1" />
+    <axis xyz="0.0 -1.0 -0.0" />
+    <limit lower="-1.0" upper="0.0" effort="10" velocity="100" />
+    <mimic joint="joint1" multiplier="-1" offset="0" />
+  </joint>
+  <joint name="joint12" type="revolute">
+    <origin xyz="-0.020243 0.0 0.045719" rpy="0 0 0" />
+    <parent link="link8_1" />
+    <child link="link9_1" />
+    <axis xyz="0.0 -1.0 -0.0" />
+    <limit lower="0.0" upper="1.0" effort="10" velocity="100" />
+    <mimic joint="joint1" multiplier="1" offset="0" />
+  </joint>
+</robot>
